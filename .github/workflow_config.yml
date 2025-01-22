@@ -15,16 +15,20 @@
 # Each entry will be used in setup matrix
 
 buildtest:
-  - armbian/bananapim2zero
-  - armbian/bananapim2zero_nightly
-  - armbian/orangepi_zero3
-  - armbian/orangepi_zero3_nightly
-  - raspberry/rpi32
-  - raspberry/rpi64
+  # - armbian/bananapim2zero
+  # - armbian/bananapim2zero_nightly
+  # - armbian/orangepi_zero3
+  # - armbian/orangepi_zero3_nightly
+  # - raspberry/rpi32
+  # - raspberry/rpi64
+  - armbian/bigtreetech_cb1
 
 # This is used to setup release build chain.
 # Each entry will be used in setup matrix for releases
 
 release:
-  - armbian/bananapim2zero
-  - armbian/orangepi_zero3
+  # - armbian/bananapim2zero
+  # - armbian/orangepi_zero3
+  # - raspberry/rpi32
+  # - raspberry/rpi64
+  - armbian/bigtreetech_cb1
